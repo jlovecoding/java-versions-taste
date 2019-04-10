@@ -16,6 +16,11 @@
 
     <dependencies>
         <dependency>
+            <groupId>org.projectlombok</groupId>
+            <artifactId>lombok</artifactId>
+            <version>RELEASE</version>
+        </dependency>
+        <dependency>
             <groupId>org.junit.jupiter</groupId>
             <artifactId>junit-jupiter-engine</artifactId>
             <version>5.1.0</version>
@@ -33,6 +38,8 @@
                     <compilerArgs>
                         <arg>${jvm.options}</arg>
                     </compilerArgs>
+                    <source>12</source>
+                    <target>12</target>
                 </configuration>
             </plugin>
 
