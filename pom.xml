@@ -8,9 +8,9 @@
     <artifactId>java-versions-taste</artifactId>
     <version>1.0-SNAPSHOT</version>
     <properties>
-        <maven.compiler.release>12</maven.compiler.release>
-        <maven.compiler.target>12</maven.compiler.target>
-        <java.version>12</java.version>
+        <maven.compiler.release>13</maven.compiler.release>
+        <maven.compiler.target>13</maven.compiler.target>
+        <java.version>13</java.version>
         <jvm.options>--enable-preview</jvm.options>
     </properties>
 
@@ -38,8 +38,8 @@
                     <compilerArgs>
                         <arg>${jvm.options}</arg>
                     </compilerArgs>
-                    <source>12</source>
-                    <target>12</target>
+                    <source>13</source>
+                    <target>13</target>
                 </configuration>
             </plugin>
 
